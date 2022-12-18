@@ -1,3 +1,4 @@
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export function fetchCountries(name) {
     const filter = '?fields=name,capital,population,flags,languages';
     return fetch(
